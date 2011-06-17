@@ -45,14 +45,14 @@
         <div class="cell_12">
             <header>
                 <hgroup>
-                    <h1>Rails Gun</h1>
-                    <h2>How to shoot a fly with a cannon</h2>
+                    <h1>Title</h1>
+                    <h2>a claim</h2>
                 </hgroup>
                 <nav>
                     <ul>
-                        <li><a href="https://github.com/cantierecreativo/railsgun"  target="_blank">Fork on GitHub</a></li>
-                        <li><a href="http://twitter.com/#!/teamcantiere" target="_blank">@the author</a></li>
-                        <li><a href="http://www.cantierecreativo.net"  target="_blank">Cantiere Creativo</a></li>
+                        <li><a href="#">link 1</a></li>
+                        <li><a href="#">link 2</a></li>
+                        <li><a href="#">link 3</a></li>
                     </ul>
                 </nav>
             </header>
@@ -60,34 +60,8 @@
     
         <div class="cell_8" id="container">
             <article>
-                <p>Your content will be shown here.</p>
                 <%= yield %>
-                
-                <h1>The layout</h1>
-                <p>This is just a simple layout we provide to begin a new project. There is an empty file named "application.html.erb.clean" that has this structure withou content. You should forst delete this original "application.html.erb" fil and the rename the "application.html.erb.clean" in "application.html.erb"</p>
-                
-                <h1>RailsGun use cell</h1>
-                <p>Here, on the right, there is an example to use a cell to generate e two levels menu <pre>render_cell :menu, :two_levels, :page => @page</pre></p>
-                
-                <h1>The spleen_scss library</h1>
-                <p>RailsGun use the <a href="https://github.com/spleenteo/spleen_scss" target="_blank">spleen_scss</a> library. To use it you should:</p>
-                <ul>
-                    <li>Remove the demo css from the head of this layout <pre>stylesheet_link_tag "hive", "style", "demo"</pre></li>
-                    <li>Open a terminal and launch this command from the root of your railsgun project dir:
-                        <pre>sass -C -t compact --watch app/stylesheets/:public/stylesheets/</pre>
-                    </li>
-                    <li>Now you can modify the "app/stylesheets/style.scss" to design your template as you prefer.</li>
-                </ul>
-                
-                <h2>The mixin(s)</h2>
-                <p>With spleen scss library you also have some mixin scss function availables as little shortcuts to css3 funcionality as:</p>
-                <ul>
-                    <li>Box Shadow: @include shadow(2px, 2px, #000)</li>
-                    <li>Rounded corners @include rounded(7px)</li>
-                    <li>Web Fonts (to be configured)</li>
-                </ul>
-                
-            </article>
+              </article>
         </div>
         <div class="cell_4">
             <aside>
