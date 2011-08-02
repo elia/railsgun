@@ -1,5 +1,5 @@
 Railsgun
-=============
+========
 
 How to shoot a fly with a cannon - or take a sledgehammer to crack a nut.
 
@@ -31,17 +31,18 @@ Raquirements:
 
 Installation
 ------------
-	run 'git clone https://github.com/cantierecreativo/railsgun.git'
-	run 'gem install rails bundler'
-	run 'cd railsgun'
-	edit config/database.yml according to your configuration
-	run 'bundle install'
-	run 'rake db:reset'
-	run 'rake pages_tree:generate'
-	
+
+1. run `git clone https://github.com/cantierecreativo/railsgun.git`
+2. run `gem install rails bundler`
+3. run `cd railsgun`
+4. edit `config/database.yml` according to your configuration
+5. run `bundle install`
+6. run `rake db:reset`
+7. run `rake pages_tree:generate`
+
 Usage
 -----
-* Generate pages tree via db/pages_tree.yml and then run 'rake pages_tree:generate'
+* Generate pages tree via `db/pages_tree.yml` and then run `rake pages_tree:generate`
 * Fill layouts and views partials
 		
 Credits
